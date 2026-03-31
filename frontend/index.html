@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ambulance Route System</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.0/socket.io.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1> Apollo Hospital powered by MEDroute </h1>
+        <p>Chennai Emergency Dispatch System</p>
+    </div>
+
+    <div class="container">
+
+        <!-- Emergency Form -->
+        <div class="card">
+            <h2>Incoming Emergency</h2>
+            <div id="alertBox" class="status-box">
+                Waiting for emergency...
+         </div>
+    </div>
+
+
+        <!-- Status Panel -->
+        <div class="card">
+            <h2> Dispatch Status</h2>
+            <div id="status" class="status-box">Waiting for emergency...</div>
+        </div>
+
+        <!-- Ambulances -->
+        <div class="card">
+            <h2> Ambulance Fleet</h2>
+            <div id="ambulanceList">Loading...</div>
+            <button onclick="loadAmbulances()"> Refresh</button>
+            <button onclick="resetAmbulances()"> Reset All</button>
+        </div>
+
+    </div>
+
+    <!-- Route Map -->
+    <div class="map-container">
+        <h2> Optimal Route Map</h2>
+        <iframe id="routeMap" src="" width="100%" height="500px"></iframe>
+        <p id="mapMsg" style="text-align:center;color:#888;">Map will appear after dispatching ambulance</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
