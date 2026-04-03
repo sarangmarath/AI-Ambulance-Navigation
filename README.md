@@ -1,4 +1,4 @@
-# RapidRoute — AI Ambulance Navigation
+# MEDRoute — AI Ambulance Navigation
 
 An AI-powered emergency ambulance dispatch system that uses the A* Search Algorithm combined with a Random Forest ML model to find the optimal traffic-aware route from an ambulance to a patient in the shortest possible time.
 
@@ -150,13 +150,7 @@ http://127.0.0.1:5000/simulate
 
 ---
 
-## Team
 
-| Name | Register Number |
-|---|---|
-| Suraj | RA2411033010150 |
-| Sarang Marath Sabu | RA2411033010156 |
-| Manu Prasath | RA2411033010162 |
 
 ---
 
