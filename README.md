@@ -153,11 +153,3 @@ http://127.0.0.1:5000/simulate
 Note: This is a simulated academic project. It is not intended for real-world deployment. Emergency locations and ambulance positions are simulated for demonstration purposes.
 
 
-
----
-
-## Institution
-
-SRM Institute of Science and Technology
-Department of CINTEL — Computer Science with Software Engineering
-Semester 4 — Artificial Intelligence Project
