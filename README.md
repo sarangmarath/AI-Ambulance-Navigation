@@ -1,4 +1,4 @@
-# MEDRoute — AI Ambulance Navigation
+# MEDRoute — AI Ambulance Navigation / Simulated
 
 An AI-powered emergency ambulance dispatch system that uses the A* Search Algorithm combined with a Random Forest ML model to find the optimal traffic-aware route from an ambulance to a patient in the shortest possible time.
 
@@ -149,6 +149,8 @@ http://127.0.0.1:5000/simulate
 5. Watch the emergency alert appear, route get calculated, and the ambulance animate along the optimal path in real time
 
 ---
+
+Note: This is a simulated academic project. It is not intended for real-world deployment. Emergency locations and ambulance positions are simulated for demonstration purposes.
 
 
 
